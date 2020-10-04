@@ -1,0 +1,90 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+.container {
+	height: 800px;
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+  	height: 100%;
+}
+
+.rect {
+	width: 100%;
+	padding: 10px 0;
+	margin-top: 0;
+	position: absolute;
+  	top: 50%;
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
+
+#meadow {
+	background-image: url("../img/meadow.JPG");
+}
+
+#flower1 {
+	background-image: url("../img/flower1.JPG");
+}
+
+#flower2 {
+	background-image: url("../img/flower2.JPG");
+}
+
+#flower3 {
+	background-image: url("../img/flower3.JPG");
+}
+
+#flower4 {
+	background-image: url("../img/flower4.JPG");
+}
+
+#meadow > .rect {
+	background-color: rgba(188, 196, 160, 0.6);
+}
+
+#flower1 > .rect{
+	background-color: rgba(92, 82, 215, 0.6);
+}
+
+#flower2 > .rect {
+	background-color: rgba(225, 227, 222, 0.6);
+}
+
+#flower3 > .rect {
+	background-color: rgba(244, 193, 0, 0.6);
+}
+
+#flower4 > .rect {
+	background-color: rgba(144, 49, 203, 0.6);
+}
+
+.caption {
+	width: 100%;
+	background-color: #c2fbc2;
+}
+
+.caption > p {
+	width: 60%;
+	padding: 25px;
+	margin: 0 auto;
+	text-align: justify;
+	line-height: 200%;
+}
+
+h1{
+	text-align: center;
+	font-size: 48px;
+}
+
+#footer {
+	padding: 10px;
+}
+
+#footer > p {
+	text-align: center;
+}
