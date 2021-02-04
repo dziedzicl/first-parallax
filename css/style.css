@@ -88,9 +88,3 @@ h1{
 #footer > p {
 	text-align: center;
 }
-
-@media only screen and (max-device-width: 1366px) {
-  .container {
-    background-attachment: scroll;
-  }
-}
